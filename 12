@@ -1,0 +1,7 @@
+contraseña = int(input("ingresa tu contraseña =>"))
+if contraseña == 1234:
+  print ("contraseña correcta")
+elif contraseña == 2345:
+  print ("contraseña correcta")
+else: 
+  print ("contraseña incorrecta") 
