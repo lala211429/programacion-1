@@ -1,0 +1,8 @@
+número1= int(input( "ingresa un número entero =>"))
+número2= int(input( "ingresa otro número entero =>"))
+division = número1 / número2
+print (division)
+if division == 0:
+  print ("error")
+else:
+  print ("el resultado es " + str(division))
