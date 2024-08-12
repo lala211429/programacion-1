@@ -1,0 +1,11 @@
+pan_normal=3.49
+pan_fresco= input("¿cuantos panes frescos vendio?")
+pft= int(pan_fresco)*int(pan_normal)
+pan2= input("¿cuantos panes viejos vendio?")
+pnv= int(pan2)* int(pan_normal)
+pnvt= pnv-0.06
+print ("el pan habitalmente tiene un costo de", pan_normal)
+print("el valor del pan que no es de hoy es de",pnvt)
+print("el valor del pan de hoy es de",pft)
+costo_total= int(pft)+ int(pnvt)
+print("el costo final de todo fue",costo_total)
